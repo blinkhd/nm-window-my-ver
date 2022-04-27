@@ -21,13 +21,13 @@ ncdn5.href = "https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"
 document.getElementsByTagName("html")[0].appendChild(ncdn5)
 
 new Nightmare({
-    "title": "Nightmare", //Window Title - Required
-    "type": "js", //URL, Html or Js - Required
-    "url": "https://example.com", //For url
-    "html": "<button>hi</button>", //For html
-    "js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@0bd539ebdde4107b7f5e176b0c2fac873bb73a7d/nightmaresrc.js", //For js url
-    "width": 800, //Width - No quotes
-    "height": 600, //Height - No quotes
-    "theme": "dark" //Light or Dark
+    "title": "Nightmare",
+    "type": "js",
+    "url": "",
+    "html": "",
+    "js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@0bd539ebdde4107b7f5e176b0c2fac873bb73a7d/nightmaresrc.js",
+    "width": 800,
+    "height": 600,
+    "theme": "dark",
 })
 
