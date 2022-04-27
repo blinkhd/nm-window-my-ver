@@ -8,13 +8,13 @@ var items = document.createElement("center")
 var tab = document.createElement("button")
 tab.className = "vaportab"
 tab.innerText = "Tab Cloak"
-tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
+tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(tab)
 
 var hf = document.createElement("button")
 hf.className = "vaportab"
 hf.innerText = "History Flooder"
-hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare/historyflooder.min.js","width": 400,"height": 300,"theme": "dark"})')
+hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/ historyflooder.min.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(hf)
 
 var opensite = document.createElement("button")
@@ -26,7 +26,7 @@ items.appendChild(opensite)
 var inspect = document.createElement("button")
 inspect.className = "vaportab"
 inspect.innerText = "Avo"
-inspect.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())")
+inspect.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/avo.min.js';document.body.appendChild(a);}())")
 items.appendChild(inspect)
 
 
