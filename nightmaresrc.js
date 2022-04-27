@@ -14,13 +14,13 @@ items.appendChild(tab)
 var hf = document.createElement("button")
 hf.className = "vaportab"
 hf.innerText = "History Flooder"
-hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/ historyflooder.min.js","width": 400,"height": 300,"theme": "dark"})')
+hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/historyflooder.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(hf)
 
 var opensite = document.createElement("button")
 opensite.className = "vaportab"
 opensite.innerText = "Open Site"
-opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/opensite.min.js","width": 400,"height": 300,"theme": "dark"})')
+opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/opensite.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(opensite)
 
 var inspect = document.createElement("button")
