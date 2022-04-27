@@ -26,7 +26,9 @@ var vaporscript = document.createElement("script")
 vaporscript.innerHTML = `
 function opensite() {
 var tab = document.getElementById("tab")
-var url=tab.value
+var url = tab.value
+var prx = "https://dip.il.ax/service/"
+var cmb = prx.concat(url)
 new Nightmare({
     "title": url, //Window Title - Required
     "type": "url", //URL, Html or Js - Required
@@ -39,5 +41,8 @@ new Nightmare({
 })
 }
 `
+concat()
 document.getElementsByTagName("html")[0].appendChild(vaporscript)
 addcomment
+//https://geothermalmaps.com/client/
+//https://dip.il.ax/service/
