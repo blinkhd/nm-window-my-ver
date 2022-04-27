@@ -28,7 +28,7 @@ function opensite() {
 var tab = document.getElementById("tab")
 var url=tab.value
 new Nightmare({
-    "title": "Example", //Window Title - Required
+    "title": url, //Window Title - Required
     "type": "url", //URL, Html or Js - Required
     "url": url, //For url
     "html": "", //For html
