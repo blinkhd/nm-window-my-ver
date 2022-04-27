@@ -32,7 +32,7 @@ var cmb = prx.concat(url)
 new Nightmare({
     "title": url, //Window Title - Required
     "type": "url", //URL, Html or Js - Required
-    "url": url, //For url
+    "url": cmb, //For url
     "html": "", //For html
     "js": "", //For js url
     "width": 500, //Width - No quotes
