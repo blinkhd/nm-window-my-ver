@@ -41,7 +41,6 @@ new Nightmare({
 })
 }
 `
-concat()
 document.getElementsByTagName("html")[0].appendChild(vaporscript)
 addcomment
 //https://geothermalmaps.com/client/
