@@ -14,7 +14,7 @@ items.appendChild(tab)
 var hf = document.createElement("button")
 hf.className = "vaportab"
 hf.innerText = "History Flooder"
-hf.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/whyisthesheep/bookmarklets/UtopiaHistoryFlooder.min.js';document.body.appendChild(a);}())")
+hf.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/vega79/nightmare/tabcloaktmp.min.js';document.body.appendChild(a);}())")
 items.appendChild(hf)
 
 var inspect = document.createElement("button")
