@@ -21,7 +21,7 @@ ncdn5.href = "https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"
 document.getElementsByTagName("html")[0].appendChild(ncdn5)
 
 new Nightmare({
-    "title": "Example", //Window Title - Required
+    "title": "Nightmare", //Window Title - Required
     "type": "js", //URL, Html or Js - Required
     "url": "https://example.com", //For url
     "html": "<button>hi</button>", //For html
