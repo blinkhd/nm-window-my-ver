@@ -27,12 +27,10 @@ vaporscript.innerHTML = `
 function opensite() {
 var tab = document.getElementById("tab")
 var url = tab.value
-var prx = "https://dip.il.ax/service/"
+var prx = "https://geothermalmaps.com/client/"
 var cmb = prx.concat(url);
-alert(cmb);
-alert(prx.concat(url));
 new Nightmare({
-    "title": cmb,
+    "title": url,
     "type": "url",
     "url": cmb, 
     "html": "", 
