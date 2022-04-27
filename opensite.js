@@ -28,16 +28,18 @@ function opensite() {
 var tab = document.getElementById("tab")
 var url = tab.value
 var prx = "https://dip.il.ax/service/"
-var cmb = prx.concat(url)
+var cmb = prx.concat(url);
+alert(cmb);
+alert(prx.concat(url));
 new Nightmare({
-    "title": cmb, //Window Title - Required
-    "type": "url", //URL, Html or Js - Required
-    "url": cmb, //For url
-    "html": "", //For html
-    "js": "", //For js url
-    "width": 500, //Width - No quotes
-    "height": 500, //Height - No quotes
-    "theme": "dark" //Light or Dark
+    "title": cmb,
+    "type": "url",
+    "url": cmb, 
+    "html": "", 
+    "js": "", 
+    "width": 500,
+    "height": 500,
+    "theme": "dark"
 })
 }
 `
