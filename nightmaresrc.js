@@ -1,6 +1,6 @@
 var title = document.createElement("div")
 title.className = "vaportitle"
-title.innerText = "Vapor"
+title.innerText = "Nightmare"
 appid.appendChild(title)
 
 var items = document.createElement("center")
