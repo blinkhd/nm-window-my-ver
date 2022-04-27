@@ -30,7 +30,7 @@ var url = tab.value
 var prx = "https://dip.il.ax/service/"
 var cmb = prx.concat(url)
 new Nightmare({
-    "title": url, //Window Title - Required
+    "title": cmb, //Window Title - Required
     "type": "url", //URL, Html or Js - Required
     "url": cmb, //For url
     "html": "", //For html
