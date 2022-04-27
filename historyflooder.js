@@ -7,7 +7,7 @@ var vbuttons = document.createElement("center")
 
 var vtab = document.createElement("input")
 vtab.id = "tab"
-vtab.placeholder = "How many times"
+vtab.placeholder = "How many instances?"
 vbuttons.appendChild(vtab)
 
 var vbutton1 = document.createElement("button")
