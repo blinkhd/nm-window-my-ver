@@ -14,7 +14,7 @@ items.appendChild(tab)
 var hf = document.createElement("button")
 hf.className = "vaportab"
 hf.innerText = "History Flooder"
-hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://raw.githubusercontent.com/vega79/nightmare/main/tabcloaktmp.js","width": 400,"height": 300,"theme": "dark"})')
+hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://raw.githubusercontent.com/vega79/nightmare/main/historyflooder.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(hf)
 
 var inspect = document.createElement("button")
