@@ -64,7 +64,7 @@ new Nightmare({
     "type": "js", //URL, Html or Js - Required
     "url": "https://example.com", //For url
     "html": "<button>hi</button>", //For html
-    "js": "https://raw.githubusercontent.com/vega79/bh-files/main/nightmaresrc.js?token=GHSAT0AAAAAABTXO66PRPN7YGSQ4C53SI2WYTIWQMQ", //For js url
+    "js": "https://cdn.jsdelivr.net/gh/vega79/nightmare/nightmaresrc.min.js", //For js url
     "width": 800, //Width - No quotes
     "height": 600, //Height - No quotes
     "theme": "dark" //Light or Dark
