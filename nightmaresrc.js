@@ -20,8 +20,20 @@ items.appendChild(hf)
 var opensite = document.createElement("button")
 opensite.className = "vaportab"
 opensite.innerText = "Open Site"
-opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@414fb44/opensite.js","width": 400,"height": 300,"theme": "dark"})')
+opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@1ede587/opensite.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(opensite)
+
+var opensite2 = document.createElement("button")
+opensite2.className = "vaportab"
+opensite2.innerText = "Open Site (DIP)"
+opensite2.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@1ede587/opensite-dip.js","width": 400,"height": 300,"theme": "dark"})')
+items.appendChild(opensite2)
+
+var opensite3 = document.createElement("button")
+opensite3.className = "vaportab"
+opensite3.innerText = "Open Site (ludi)"
+opensite3.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@1ede587/opensite-ludi.js","width": 400,"height": 300,"theme": "dark"})')
+items.appendChild(opensite3)
 
 var inspect = document.createElement("button")
 inspect.className = "vaportab"
