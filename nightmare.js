@@ -25,7 +25,7 @@ new Nightmare({
     "type": "js",
     "url": "",
     "html": "",
-    "js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@d16467c/nightmaresrc.js",
+    "js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@e1ee772/nightmaresrc.js",
     "width": 800,
     "height": 200,
     "theme": "dark",
