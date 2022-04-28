@@ -1,6 +1,6 @@
 var title = document.createElement("div")
 title.className = "tabtitle"
-title.innerText = "Open Site"
+title.innerText = "Open Site (DIP)"
 appid.appendChild(title)
 
 var vbuttons = document.createElement("center")
