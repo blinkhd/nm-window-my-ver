@@ -8,31 +8,31 @@ var items = document.createElement("center")
 var tab = document.createElement("button")
 tab.className = "vaportab"
 tab.innerText = "Tab Cloak"
-tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
+tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/tab.min.js","width": 400,"height": 150,"theme": "dark"})')
 items.appendChild(tab)
 
 var hf = document.createElement("button")
 hf.className = "vaportab"
 hf.innerText = "History Flooder"
-hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/historyflooder.min.js","width": 400,"height": 300,"theme": "dark"})')
+hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/historyflooder.min.js","width": 400,"height": 150,"theme": "dark"})')
 items.appendChild(hf)
 
 /*var opensite = document.createElement("button")
 opensite.className = "vaportab"
 opensite.innerText = "Open Site"
-opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite.js","width": 400,"height": 300,"theme": "dark"})')
+opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite.js","width": 400,"height": 150,"theme": "dark"})')
 items.appendChild(opensite)*/
 
 var opensite2 = document.createElement("button")
 opensite2.className = "vaportab"
 opensite2.innerText = "Open Site (DIP)"
-opensite2.setAttribute("onclick", 'new Nightmare({"title": "Open Site (DIP)","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite-dip.js","width": 400,"height": 300,"theme": "dark"})')
+opensite2.setAttribute("onclick", 'new Nightmare({"title": "Open Site (DIP)","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite-dip.js","width": 400,"height": 150,"theme": "dark"})')
 items.appendChild(opensite2)
 
 var opensite3 = document.createElement("button")
 opensite3.className = "vaportab"
 opensite3.innerText = "Open Site (ludi)"
-opensite3.setAttribute("onclick", 'new Nightmare({"title": "Open Site (ludi)","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite-ludi.js","width": 400,"height": 300,"theme": "dark"})')
+opensite3.setAttribute("onclick", 'new Nightmare({"title": "Open Site (ludi)","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite-ludi.js","width": 400,"height": 150,"theme": "dark"})')
 items.appendChild(opensite3)
 
 var inspect = document.createElement("button")
