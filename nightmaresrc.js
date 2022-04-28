@@ -17,11 +17,11 @@ hf.innerText = "History Flooder"
 hf.setAttribute("onclick", 'new Nightmare({"title": "History Flooder","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@latest/historyflooder.min.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(hf)
 
-var opensite = document.createElement("button")
+/*var opensite = document.createElement("button")
 opensite.className = "vaportab"
 opensite.innerText = "Open Site"
 opensite.setAttribute("onclick", 'new Nightmare({"title": "Open Site","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite.js","width": 400,"height": 300,"theme": "dark"})')
-items.appendChild(opensite)
+items.appendChild(opensite)*/
 
 var opensite2 = document.createElement("button")
 opensite2.className = "vaportab"
