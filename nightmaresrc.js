@@ -25,8 +25,8 @@ items.appendChild(opensite)*/
 
 var opensite2 = document.createElement("button")
 opensite2.className = "vaportab"
-opensite2.innerText = "Open Site (DIP)"
-opensite2.setAttribute("onclick", 'new Nightmare({"title": "Open Site (DIP)","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare@5c0e367/opensite-dip.js","width": 400,"height": 200,"theme": "dark"})')
+opensite2.innerText = "Open Site (UV)"
+opensite2.setAttribute("onclick", 'new Nightmare({"title": "Open Site (DIP)","type": "js","js": "https://cdn.jsdelivr.net/gh/vega79/nightmare/opensite-uv.js","width": 400,"height": 200,"theme": "dark"})')
 items.appendChild(opensite2)
 
 /*var opensite3 = document.createElement("button")
