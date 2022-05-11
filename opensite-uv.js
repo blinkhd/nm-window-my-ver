@@ -1,6 +1,6 @@
 var title = document.createElement("div")
 title.className = "tabtitle"
-title.innerText = "Open Site (ludi)"
+title.innerText = "Open Site (DIP)"
 appid.appendChild(title)
 
 var vbuttons = document.createElement("center")
@@ -27,7 +27,7 @@ vaporscript.innerHTML = `
 function opensite() {
 var tab = document.getElementById("tab")
 var url = tab.value
-var prx = "https://geothermalmaps.com/client/"
+var prx = "https://uvswjs-pln.vega79.repl.co/service/"
 var cmb = prx.concat(url);
 new Nightmare({
     "title": url,
